@@ -32,38 +32,6 @@ static int ft_word_len(char const *s, int start, char c)
     return (count);
 }
 
-char *ft_strncat( char * destination, const char * source, size_t size  )
-{
-    size_t len;
-    size_t i;
-
-    len = 0;
-    i = 0;
-    while (destination[len] != '\0')
-	{
-		len++;
-	}
-    while (source[i] != '\0' && i < size)
-	{
-        destination[len] = source[i];
-		i++;
-        len++;
-	}
-    destination[len] = '\0';
-    return destination;
-}
-
-char * ft_strsub(char const *s, unsigned int start, size_t len)
-{
-    char *new;
-
-    new = ft_strnew(len);
-    if (new == NULL)
-        return (NULL);
-    ft_strncat(new, s + start, len);
-    return (new);
-}
-
 char ** ft_strsplit(char const *s, char c)
 {
     char **new;
