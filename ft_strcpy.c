@@ -1,3 +1,5 @@
+#include "libft.h"
+
 char * ft_strcpy( char * destination, const char * source ) {
     int i;
 

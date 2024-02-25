@@ -1,4 +1,6 @@
-char *ft_strncat( char * destination, const char * source, size_t size  )
+#include "libft.h"
+
+char *ft_strncat (char * destination, const char * source, size_t size)
 {
     size_t len;
     size_t i;

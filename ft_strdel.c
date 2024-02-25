@@ -1,11 +1,4 @@
-void ft_memdel(void **ap)
-{
-    if(ap)
-    {
-        free(*ap);
-        *ap = NULL;
-    }
-}
+#include "libft.h"
 
 void ft_strdel(char **as)
 {

@@ -1,3 +1,5 @@
+#include "libft.h"
+
 void * ft_memchr( const void * memoryBlock, int searchedChar, size_t size )
 {
     size_t  i;

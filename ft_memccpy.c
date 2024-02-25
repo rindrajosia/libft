@@ -1,4 +1,6 @@
-void * ft_memccpy( void * destination, const void * source, int ch, size_t maxSize )
+#include "libft.h"
+
+void * ft_memccpy(void * destination, const void * source, int ch, size_t maxSize)
 {
     size_t  i;
 

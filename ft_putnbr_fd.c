@@ -1,7 +1,4 @@
-void ft_putchar_fd(char c, int fd)
-{
-    write(fd, &c, sizeof(c));
-}
+#include "libft.h"
 
 void ft_putnbr_fd(int n, int fd)
 {

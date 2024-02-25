@@ -1,3 +1,5 @@
+#include "libft.h"
+
 char * ft_strstr(const char * fullString, const char * substring)
 {
     int j;

@@ -1,3 +1,5 @@
+#include "libft.h"
+
 int ft_strcmp( const char * first, const char * second )
 {
     int i;
