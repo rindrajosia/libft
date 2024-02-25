@@ -1,4 +1,5 @@
-char * ft_strcat( char * destination, const char * source ) {
+char * ft_strcat( char * destination, const char * source )
+{
     int len;
     int i;
 

@@ -10,7 +10,7 @@ size_t ft_strlen( const char * theString )
     return (count);
 }
 
-char * ft_strnstr( const char * fullString, const char * substring, size_t len)
+char * ft_strnstr(const char * fullString, const char * substring, size_t len)
 {
     int j;
     int i;

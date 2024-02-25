@@ -1,4 +1,4 @@
-int ft_isalnum( int character )
+int ft_isalnum(int character)
 {
     if(((unsigned char)character >= 'a' && (unsigned char)character <= 'z') ||
     ((unsigned char)character >= 'A' && (unsigned char)character <= 'Z') ||

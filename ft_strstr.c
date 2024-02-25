@@ -1,4 +1,4 @@
-char * ft_strstr( const char * fullString, const char * substring )
+char * ft_strstr(const char * fullString, const char * substring)
 {
     int j;
     int i;

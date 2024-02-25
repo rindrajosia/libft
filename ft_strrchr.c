@@ -10,7 +10,7 @@ size_t ft_strlen( const char * theString )
     return (count);
 }
 
-char * ft_strrchr( const char * string, int searchedChar )
+char * ft_strrchr(const char * string, int searchedChar)
 {
     int i;
 

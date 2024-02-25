@@ -22,7 +22,5 @@ int ft_atoi(const char *str)
         value = (value * 10) + ((int)str[i] - 48);
 		i++;
 	}
-
     return (value * signe);
-
 }
